@@ -1,10 +1,18 @@
+# ********************************************************************
+# * Project Name : prog_tech_lr3									*
+# * File Name : main.py												*
+# * Programmer : Katin Georgy , Kozlov Vladislav					*
+# * Modifyed By : Katin Georgy , Kozlov Vladislav					*
+# * Created : 12 / 10 / 22											*
+# * Last Revision : 22 / 10 / 21									*
+# ********************************************************************
 import tkinter as tk
 import tkinter.ttk as ttk
 import pandas as pd
 
 from tkinter import messagebox as mb
-from database import make_df, execute_query
 from tkcalendar import DateEntry
+from database import make_df, execute_query
 
 
 def booking(
